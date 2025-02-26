@@ -1,0 +1,34 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face{
+    font-family:"Blackhan";
+    src: url("../fonts/BlackHanSans-Regular.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.marca{
+    font-family: "Blackhan", sans-serif;
+}
+.img-carrusel-crypto{
+    height: 300px;
+    object-fit: cover;
+}
+@media (min-width:767px) and (max-width:991px){
+    .img-carrusel-crypto{
+        height: 400px;
+    }
+}
+@media (min-width:992px){
+    .img-carrusel-crypto{
+        height: 500px;
+    }
+}
+.carousel-control-prev-icon{
+    filter: none!important;
+}
+.carousel-control-next-icon{
+    filter: none!important;
+}
